@@ -1,20 +1,128 @@
 <div align="center">
+
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 💐 Fleuria Bouquet Assistant
+
+**AI-powered Bouquet Recommendation & Creative Assistant**
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## ✨ Overview
 
-View your app in AI Studio: https://ai.studio/apps/ac5469ec-743a-4a35-b029-f38917c8ee32
+**Fleuria Bouquet Assistant** adalah aplikasi AI berbasis web yang membantu pengguna dalam:
 
-## Run Locally
+* Merekomendasikan bouquet bunga berdasarkan kebutuhan
+* Memberikan inspirasi desain bouquet
+* Menyediakan analisis gambar & bunga
+* Chat assistant berbasis AI (Gemini + LangChain)
 
-**Prerequisites:**  Node.js
+Aplikasi ini dibangun dengan arsitektur **Full-Stack modern** menggunakan React + Express + Vite.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Tech Stack
+
+* ⚡ React + Vite (Frontend)
+* 🟢 Node.js + Express (Backend)
+* 🧠 Gemini API (AI Engine)
+* 🔗 LangChain (AI orchestration)
+* 🎨 Tailwind / CSS Modern UI
+* 📦 TypeScript
+
+---
+
+## 📦 Installation
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/username/UAS_NLP.git
+cd UAS_NLP
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+
+Buat file `.env.local` lalu isi:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## ▶️ Run Project (Development Mode)
+
+```bash
+npm run dev
+```
+
+Aplikasi akan berjalan di:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ │    ├── BouquetQuiz.tsx
+ │    ├── CardGenerator.tsx
+ │    ├── FlowerKamus.tsx
+ │    ├── ImageAnalyzer.tsx
+ │    └── LangGraphDashboard.tsx
+ ├── App.tsx
+ ├── main.tsx
+ └── types.ts
+```
+
+---
+
+## 🌸 Features
+
+* 💬 AI Chat Assistant (Gemini-powered)
+* 🌼 Bouquet Recommendation System
+* 📸 Image Analyzer for flowers
+* 📊 LangGraph Dashboard visualization
+* 🎨 Clean & aesthetic UI design
+
+---
+
+## ⚙️ Environment Requirements
+
+* Node.js ≥ 16
+* NPM / Yarn
+* Gemini API Key
+
+---
+
+## 👨‍💻 Author
+
+**Nabiladhiya**
+📧 Email: [dwinabiladhiyaulhaq@student.uir.ac.id](mailto:dwinabiladhiyaulhaq@student.uir.ac.id)
+
+---
+
+## 📌 Notes
+
+Project ini dibuat untuk keperluan **UAS Natural Language Processing / LLM Implementation** dengan fokus pada integrasi AI modern dalam aplikasi web.
+
+---
+
+<div align="center">
+
+⭐ Jika project ini membantu, jangan lupa kasih star di repository!
+
+</div>
