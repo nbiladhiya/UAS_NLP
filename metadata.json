@@ -1,0 +1,6 @@
+{
+  "name": "Fleuria Bouquet Assistant",
+  "description": "Asisten chatbot rangkaian bunga premium untuk merekomendasikan buket bunga berdasarkan acara, warna, budget, kuis interaktif, serta generator kartu ucapan dan analisis gambar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
